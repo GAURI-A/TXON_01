@@ -1,0 +1,142 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #edc7b7;
+  color: #ac3b61;
+}
+
+#navbar {
+  display: flex;
+  background-color: #eee2dc;
+  width: 100vw;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  color: #123c69;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  margin: 17px 198px;
+}
+ul li {
+  list-style: none;
+  padding: 0px 32px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+ul li:hover {
+  text-decoration: underline;
+  font-weight: 600;
+  color: #633991;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #123c69;
+}
+nav h1 {
+  margin: 15px 60px;
+  font-size: 2rem;
+  font-weight: bold;
+ 
+}
+
+#home {
+  font-size: 20px;
+  text-align: center;
+  margin: 95px 222px;
+ 
+}
+#home div h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+#home div p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+
+#learn {
+  font-size: 20px;
+  background-color:#eee2dc;
+  color: #123c69;
+  text-align: center;
+  padding: 35px 18px;
+  font-family: "arial", sans-serif;
+}
+
+section .container {
+  display: flex;
+  margin: 19px 51px;
+  margin-bottom: 0px;
+}
+
+section .card {
+ 
+  margin: 23px 23px;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 1px 2px 4px black;
+  background-color:#e9dde2;
+}
+
+.card:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 3px 5px #df6b6b;
+}
+
+.card span {
+  display: flex;
+  justify-content: center;
+}
+section h2 {
+  padding-top: 23px;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+.start {
+  font-size: 1.1rem;
+  color: rgb(117, 117, 109);
+}
+section .headingH3 {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+section .desc {
+  font-size: 1rem;
+  margin-top: 12px;
+}
+
+footer {
+  height: 70px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+p {
+  padding-top: 20px;
+}
+
+footer span {
+  color: #633991;
+  font-size: 20px;
+}
